@@ -1,0 +1,63 @@
+* {
+	font-family: "Montserrat";
+	font-weight: bolder;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+body {
+	background-color: #002244;
+	animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#headshot {
+	border-radius: 16px;
+	text-indent: 45px;
+	box-shadow: 4px 4px 8px black;
+}
+
+.left-side {
+	text-indent: 45px;
+}
+
+.right-side {
+	margin-right: 45px;
+	text-align: right;
+}
+
+h1 {
+    color: blue;
+	font-size: 45px;
+}
+
+h2 {
+	color: black;
+}
+
+button {
+	color: #993108;
+	background: none;
+	border: none;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	font-size: 20px;
+	text-shadow: 2px 2px 4px black;
+}
+
+.button-container {
+	display: grid;
+	grid-auto-flow: column;
+	grid-column-gap: 50px;
+	float: right;
+	margin-right: 45px;
+}
