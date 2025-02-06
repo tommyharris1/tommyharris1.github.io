@@ -10,6 +10,7 @@
         crossorigin="anonymous">
     </script>
     <script type="text/javascript" src="./script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <html>
@@ -18,11 +19,11 @@
         <br>
         <header>
             <span class="button-container-left">
-                <button>HOME</button>
-                <button>EMPLOYMENT</button>
-                <button>EDUCATION</button>
-                <button>PERSONAL LIFE</button>
-                <button>HOBBIES</button>
+                <button id="home-btn">HOME</button>
+                <button id="empl-btn">EMPLOYMENT</button>
+                <button id="edu-btn">EDUCATION</button>
+                <button id="prsnl-btn">PERSONAL LIFE</button>
+                <button id="hob-btn">HOBBIES</button>
             </span>
             <span class="button-container-right">
                 <button onclick="window.open('./Resume.pdf')" title="Resume"><embed src="./resume.png" class="small-btn"><i id="resume-update">last updated<br>1/28/2025</i></button>
@@ -30,15 +31,17 @@
             </span>
         </header>
         <br><br><br>
-        <html>
-        <h1 class="left-side">Thomas Peter Harris</h1><br><br>
-        <p class="left-side">
-            <img id="headshot" src="./headshot.jpg">
-            <span id="welcome"><br>
-                Hello and welcome!<br><br>
-                My name is Thomas Harris, but (almost) everyone<br>calls me Tommy.<br><br>
-                Here you will learn more about who I am and what I do,<br>both professionally and personally.<br>
-            </span>
-        </p>
+
+        <div id="current">
+            <h1 class="left-side">Thomas Peter Harris</h1><br><br>
+            <p class="left-side">
+                <img id="headshot" src="./headshot.jpg">
+                <span id="welcome"><br>
+                    Hello and welcome!<br><br>
+                    My name is Thomas Harris, but (almost) everyone<br>calls me Tommy.<br><br>
+                    Here you will learn more about who I am and what I do,<br>both professionally and personally.<br>
+                </span>
+            </p>
+        </div>
     </body>
 </html>
