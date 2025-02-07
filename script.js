@@ -1,35 +1,47 @@
+const WAIT_TIME = 400;
+
 $(document).ready(function() {
   const current = $("#current").html();
+  async function sleep() {
+    await new Promise(resolve => setTimeout(resolve, WAIT_TIME));
+  }
 
-  $(".button-container-left button").click(function() {
+  $(".button-container-left button").click(async function() {
     $(".button-container-left button").css("text-shadow", "1px 1px 2px black");
     $(this).css("text-shadow",
       "6px 6px 3px black");
+    $("#current").fadeOut(WAIT_TIME);
+    $("#current").fadeIn(WAIT_TIME);
   });
 
-  $("#home-btn").click(function() {
+  $("#home-btn").click(async function() {
+    await sleep();
     $("#current").html(current);
   });
 
-  $("#empl-btn").click(function() {
+  $("#empl-btn").click(async function() {
+    await sleep();
     $("#current").html(`
       <h1 class="left-side">Employment</h1><br><br>
     `);
   });
 
-  $("#edu-btn").click(function() {
+  $("#edu-btn").click(async function() {
+    await sleep();
     $("#current").html(`
       <h1 class="left-side">Education</h1><br><br>
     `);
   });
 
-  $("#prsnl-btn").click(function() {
+  $("#prsnl-btn").click(async function() {
+    await sleep();
     $("#current").html(`
       <h1 class="left-side">Personal Life</h1><br><br>
     `);
   });
 
-  $("#hob-btn").click(function() {
+  $("#hob-btn").click(async function() {
+    await sleep();
     $("#current").html(`
       <h1 class="left-side">Hobbies</h1><br><br>
     `);
