@@ -18,30 +18,34 @@
         <link rel="stylesheet" href="./style.css">
         <br>
         <header>
-            <span class="button-container-left">
-                <button id="home-btn">HOME</button>
-                <button id="empl-btn">EMPLOYMENT</button>
-                <button id="edu-btn">EDUCATION</button>
-                <button id="prsnl-btn">PERSONAL LIFE</button>
-                <button id="hob-btn">HOBBIES</button>
-            </span>
+            <div class="dropdown">
+                <button id="dropbtn"><embed src="./dropdown.png" class="small-btn"></button>
+                    <div id="dropdown-content" class="button-container-left">
+                        <button href="#" id="home-btn" style="text-shadow: 6px 6px 3px black">HOME</button>
+                        <button href="#" id="empl-btn">EMPLOYMENT</button>
+                        <button href="#" id="edu-btn">EDUCATION</button>
+                        <button href="#" id="prsnl-btn">PERSONAL LIFE</button>
+                        <button href="#" id="hob-btn">HOBBIES</button>
+                    </div>
+            </div>
             <span class="button-container-right">
-                <button onclick="window.open('./Resume.pdf')" title="Resume"><embed src="./resume.png" class="small-btn"><i id="resume-update">last updated<br>2/6/2025</i></button>
+                <a href="mailto:thomas.p.harris672@gmail.com"><button title="E-mail"><embed src="./email.png" class="small-btn"></button></a>
                 <a href="https://www.linkedin.com/in/tommy-harris-100/" target="_blank"><button title="LinkedIn"><embed src="./linkedin.png" class="small-btn"></button></a>
+                <button onclick="window.open('./Resume.pdf')" title="Resume"><embed src="./resume.png" class="small-btn"><i id="resume-update">last updated<br>2/6/2025</i></button>
             </span>
         </header>
         <br><br><br>
 
-        <div id="current">
-            <h1 class="left-side">Thomas Peter Harris</h1><br><br>
-            <p class="left-side">
+        <div id="current" style="width: 40%; margin: auto;">
+            <h1 style="text-align: left;">Thomas Peter Harris<br></h1>
+            <div id="content">
                 <img id="headshot" src="./headshot.jpg">
-                <span id="welcome"><br>
-                    Hello and welcome!<br><br>
-                    My name is Thomas Harris, but (almost) everyone<br>calls me Tommy.<br><br>
-                    Here you will learn more about who I am and what I do,<br>both professionally and personally.<br>
-                </span>
-            </p>
+                <div id="welcome">
+                    Hello and welcome!<br>
+                    My name is Thomas Harris, but (almost) everyone calls me Tommy.<br>
+                    Here you will learn more about who I am and what I do, both professionally and personally.
+                </div>
+            </div>
         </div>
     </body>
 </html>

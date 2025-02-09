@@ -1,4 +1,4 @@
-const WAIT_TIME = 400;
+const WAIT_TIME = 200;
 
 $(document).ready(function() {
   const current = $("#current").html();
