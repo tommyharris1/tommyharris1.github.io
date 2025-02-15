@@ -6,8 +6,8 @@ $(document).ready(function() {
     await new Promise(resolve => setTimeout(resolve, WAIT_TIME));
   }
 
-  $(".button-container-left button").click(async function() {
-    $(".button-container-left button").css("text-shadow", "1px 1px 2px black");
+  $("#dropdown-content button").click(async function() {
+    $("#dropdown-content button").css("text-shadow", "1px 1px 2px black");
     $(this).css("text-shadow",
       "6px 6px 3px black");
     $("#current").fadeOut(WAIT_TIME);

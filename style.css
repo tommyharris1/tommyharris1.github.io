@@ -24,6 +24,18 @@
     }
 }
 
+@keyframes growUp {
+    0% {
+        transform: scaleY(1)
+    }
+    50% {
+        transform: scaleY(0)
+    }
+    100% {
+        transform: scaleY(0)
+    }
+}
+
 body {
 	background: #040881;
 	background-image: url("./background.avif");
@@ -36,8 +48,9 @@ body {
 #headshot {
 	border-radius: 16px;
 	box-shadow: 4px 4px 8px black;
-	width: 30%;
-	height: 30%;
+	width: 35vmin;
+	height: 35vmin;
+	float: left;
 }
 
 .right-side {
@@ -47,9 +60,8 @@ body {
 
 h1 {
     color: rgb(59, 59, 250);
-	font-size: 2.5vw;
+	font-size: 5vmin;
 	text-shadow: 4px 4px 8px black;
-	position: relative;
 	text-align: center;
 }
 
@@ -75,7 +87,7 @@ button:focus {
 
 .dropdown button {
 	color: #993108;
-	font-size: 1.7vw;
+	font-size: 3.4vmin;
 	text-shadow: 1px 1px 2px black;
 	transition: transform 0.3s ease;
 }
@@ -93,7 +105,7 @@ button:focus {
 #dropdown-content {
 	display: none;
 	position: absolute;
-	min-width: 300px;
+	min-width: 235px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
 }
@@ -106,6 +118,12 @@ button:focus {
 
 .dropdown:hover #dropdown-content {
 	animation: growDown 300ms ease-in-out forwards;
+    transform-origin: top center;
+	display: block;
+}
+
+.dropdown:not(hover) #dropdown-content {
+	animation: growUp 300ms ease-in-out forwards;
     transform-origin: top center;
 	display: block;
 }
@@ -123,19 +141,19 @@ button:focus {
 }
 
 #welcome {
-	font-size: 1vw;
+	font-size: 3vmin;
 	color: #f08520;
 	text-align: left;
 	line-height: 2.5;
 }
 
 .small-btn {
-	height: 3.5vw;
-	width: 3.5vw;
+	height: 9vmin;
+	width: 9vmin;
 }
 
 #resume-update {
-	font-size: 0.6vw;
+	font-size: 1.6vmin;
 	color: white;
 	display: block;
 	margin: 1px 0;
@@ -144,7 +162,7 @@ button:focus {
 
 #content {
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: center;
 	gap: 40px;
 }
