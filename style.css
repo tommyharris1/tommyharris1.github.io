@@ -53,11 +53,6 @@ body {
 	float: left;
 }
 
-.right-side {
-	margin-right: 45px;
-	text-align: right;
-}
-
 h1 {
     color: rgb(59, 59, 250);
 	font-size: 5vmin;
@@ -87,7 +82,7 @@ button:focus {
 
 .dropdown button {
 	color: #993108;
-	font-size: 3.4vmin;
+	font-size: 2.5vmin;
 	text-shadow: 1px 1px 2px black;
 	transition: transform 0.3s ease;
 }
@@ -99,14 +94,16 @@ button:focus {
 .dropdown {
 	position: relative;
 	display: inline-block;
-	margin-left: 40px;
+	margin-left: 20px;
 }
 
 #dropdown-content {
 	display: none;
 	position: absolute;
-	min-width: 235px;
+	min-width: 170px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	background-color: rgba(131, 131, 131, 0.5);
+	border-radius: 16px;
 	z-index: 1;
 }
 
@@ -130,6 +127,11 @@ button:focus {
 
 #dropbtn {
 	border: none;
+	position: relative;
+}
+
+#dropbtn:hover {
+	animation: growUp 300ms ease-in-out forwards;
 }
 
 .button-container-right {
@@ -137,11 +139,11 @@ button:focus {
 	grid-auto-flow: column;
 	grid-column-gap: 2vw;
 	float: right;
-	margin-right: 40px;
+	margin-right: 20px;
 }
 
 #welcome {
-	font-size: 3vmin;
+	font-size: 2.4vmin;
 	color: #f08520;
 	text-align: left;
 	line-height: 2.5;
@@ -150,6 +152,7 @@ button:focus {
 .small-btn {
 	height: 9vmin;
 	width: 9vmin;
+	margin-top: -10px;
 }
 
 #resume-update {
