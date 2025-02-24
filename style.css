@@ -101,7 +101,7 @@ button:focus {
 #dropdown-content {
 	display: none;
 	position: absolute;
-	min-width: 225px;
+	min-width: 25.4vmin;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	background-color: rgba(131, 131, 131, 0.5);
 	border-radius: 16px;
@@ -126,16 +126,16 @@ button:focus {
 	display: block;
 }
 
-#dropbtn:hover .drop #one {
-	transform: translateY(25px) rotate(45deg);
+.dropdown:hover #dropbtn #one {
+	transform: translateY(2.5vmin) rotate(45deg);
 }
 
-#dropbtn:hover .drop #two {
+.dropdown:hover #dropbtn #two {
 	opacity: 0;
 }
 
-#dropbtn:hover .drop #three {
-	transform: translateY(-25px) rotate(-45deg);
+.dropdown:hover #dropbtn #three {
+	transform: translateY(-2.5vmin) rotate(-45deg);
 }
 
 .dropdown:not(hover) #dropbtn {
@@ -153,6 +153,7 @@ button:focus {
 	background-color: white;
 	margin: 1.5vmin 0;
 	border-radius: 8px;
+	transition: all 150ms cubic-bezier(0.895, 0.03, 0.685, 0.22);
 }
 
 .button-container-right {
