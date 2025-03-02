@@ -9,7 +9,7 @@ $(document).ready(function() {
   $("#dropdown-content button").click(async function() {
     $("#dropdown-content button").css("text-shadow", "1px 1px 2px black");
     $(this).css("text-shadow",
-      "6px 6px 3px black");
+      "5px 5px 2px black");
     $("#current").fadeOut(WAIT_TIME);
     $("#current").fadeIn(WAIT_TIME);
   });
