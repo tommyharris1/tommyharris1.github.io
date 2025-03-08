@@ -45,6 +45,7 @@ body {
 
 #headshot {
 	border-radius: 10px;
+	box-shadow: 10px 10px 10px black;
 	width: 35vmin;
 	height: 35vmin;
 	float: left;
@@ -55,11 +56,23 @@ h1 {
     color: rgb(116, 116, 240);
 	font-size: 5vmin;
 	text-shadow: 4px 4px 8px black;
-	text-align: center;
+	text-align: left;
+	font-weight: bold;
 }
 
 h2 {
-	color: black;
+	color: rgb(116, 116, 240);
+	font-size: 3.5vmin;
+	text-shadow: 4px 4px 8px black;
+	text-align: left;
+}
+
+h3 {
+	color: rgb(116, 116, 240);
+	font-size: 2.25vmin;
+	text-shadow: 4px 4px 8px black;
+	text-align: left;
+	font-style: italic;
 }
 
 button {
@@ -176,7 +189,13 @@ button:focus {
 	font-size: 2.4vmin;
 	color: #f08520;
 	text-align: left;
-	line-height: 2.5;
+	line-height: 2;
 	justify-content: center;
 	align-items: flex-start;
+}
+
+#lce {
+	width: 55vmin;
+	height: 17.5vmin;
+	float: left;
 }

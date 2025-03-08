@@ -22,7 +22,10 @@ $(document).ready(function() {
   $("#empl-btn").click(async function() {
     await sleep();
     $("#current").html(`
-      <h1 class="left-side">Employment</h1><br><br>
+      <h1>Employment</h1><br><br>
+      <h2>Life Cycle Engineering</h2>
+      <h3>June 2023 - Present</h3><br>
+      <img id="lce" src="./lce.png">
     `);
   });
 
