@@ -22,17 +22,26 @@ $(document).ready(function() {
   $("#empl-btn").click(async function() {
     await sleep();
     $("#current").html(`
-      <h1>Employment</h1><br><br>
-      <h2>Life Cycle Engineering</h2>
+      <h1>Employment</h1><br>
+      <h2>Life Cycle Engineering - Jr. Software Engineer</h2>
       <h3>June 2023 - Present</h3><br>
       <img id="lce" src="./lce.png">
+      <div class="content">
+          I currently work as a Jr. Software Engineer at Life Cycle Engineering at the Navy Yard in Philadelphia, PA.
+      </div>
     `);
   });
 
   $("#edu-btn").click(async function() {
     await sleep();
     $("#current").html(`
-      <h1 class="left-side">Education</h1><br><br>
+      <h1>Education</h1><br>
+      <h2>The University of Delaware</h2>
+      <h3>B.S. Computer Science, May 2023</h3><br>
+      <img id="udlogo" src="./udlogo.png">
+      <div class="content">
+          I graduated from the University of Delaware in May 2023.
+      </div>
     `);
   });
 

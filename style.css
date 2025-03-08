@@ -185,7 +185,7 @@ button:focus {
 	transform: scale(1.05);
 }
 
-#content {
+.content {
 	font-size: 2.4vmin;
 	color: #f08520;
 	text-align: left;
@@ -198,4 +198,12 @@ button:focus {
 	width: 55vmin;
 	height: 17.5vmin;
 	float: left;
+	margin-right: 2vmin;
+}
+
+#udlogo {
+	width: 37vmin;
+	height: 39.5vmin;
+	float: left;
+	margin-right: 2vmin;
 }
