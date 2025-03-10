@@ -27,7 +27,30 @@ $(document).ready(function() {
       <h3>June 2023 - Present</h3><br>
       <img id="lce" src="./lce.png">
       <div class="content">
-          I currently work as a Jr. Software Engineer at Life Cycle Engineering at the Navy Yard in Philadelphia, PA.
+          I am currently employed as a Jr. Software Engineer at Life Cycle Engineering 
+          at the Navy Yard in Philadelphia, PA.<br>
+          When I was finishing up my Bachelor's program at the University of Delaware, 
+          I was very uncertain as to where I would end up following graduation. Luckily, 
+          as I was seeking out career opportunities at the University of Delaware career 
+          fair, I came across Life Cycle Engineering.<br>The program manager I met (who would
+          eventually become my actual program manager) presented me with the opportunity to 
+          provide software support to the U.S. Navy. Being part of a midsized Navy contracting
+          company with numerous benefits and an emphasis on employee development and customer
+          advocation was an opportunity that I had to take. Despite the lengthy process of getting
+          a secret security clearance, I got the chance to meet many clients from NAVSEA Philadelphia
+          and, eventually, became a part of the LCE family. This ended up being the perfect jumpstart to
+          my career as a Software Developer.<br>
+      </div>
+      <div class="image-right">
+          <img src="./lpd26.avif" id="lpd26">
+          <div class="subtitle">LPD-26 John P. Murtha</div>
+      </div>
+      <div class="content">
+          Providing software support to NAVSEA Philadelphia under LCE has opened the door to new experiences
+          and opportunities.<br>
+          In September 2024, I got to travel to San Diego, CA and go onboard USS John P. Murtha. This experience
+          gave me the chance to learn first-hand how the work I do positively impacts U.S. Navy operations and 
+          how sailors rely on engineers like myself to build and maintain system functionality.
       </div>
     `);
   });
