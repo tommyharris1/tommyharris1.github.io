@@ -44,12 +44,12 @@ body {
 }
 
 #headshot {
-	border-radius: 10px;
 	box-shadow: 10px 10px 10px black;
 	width: 35vmin;
 	height: 35vmin;
 	float: left;
 	margin-right: 3vmin;
+	margin-bottom: 1vmin;
 }
 
 h1 {
@@ -93,7 +93,7 @@ button:focus {
 
 .dropdown button {
 	color: #993108;
-	font-size: 2.5vmin;
+	font-size: 2.2vmin;
 	text-shadow: 1px 1px 2px black;
 	transition: transform 0.3s ease;
 }
@@ -186,7 +186,7 @@ button:focus {
 }
 
 .content {
-	font-size: 2.4vmin;
+	font-size: 2.2vmin;
 	color: #f08520;
 	text-align: left;
 	line-height: 2;
@@ -199,6 +199,8 @@ button:focus {
 	height: 17.5vmin;
 	float: left;
 	margin-right: 2vmin;
+	-webkit-filter: drop-shadow(10px 10px 10px black);
+  	filter: drop-shadow(10px 10px 10px black);
 }
 
 #udlogo {
@@ -209,11 +211,12 @@ button:focus {
 }
 
 #lpd26 {
-	border-radius: 10px;
 	box-shadow: 10px 10px 10px black;
 	width: 50.5vmin;
 	height: 33.5vmin;
 	float: right;
+	margin-top: 1.5vmin;
+	margin-left: 2.5vmin;
 	margin-bottom: 1.5vmin;
 }
 
@@ -223,9 +226,52 @@ button:focus {
 	color: white;
 }
 
+.image-left {
+	display: flex;
+	justify-content: left;
+  	float: left;
+  	flex-direction: column;
+}
+
 .image-right {
   	display: flex;
   	justify-content: right;
 	float: right;
 	flex-direction: column;
+}
+
+#navsea {
+	width: 38vmin;
+	height: 17.5vmin;
+	float: left;
+	margin-top: 1.5vmin;
+	margin-right: 2.5vmin;
+	box-shadow: 10px 10px 10px black;
+}
+
+#aiwhoo {
+	width: 47.5vmin;
+	height: 11vmin;
+	float: left;
+	margin-right: 2vmin;
+	-webkit-filter: drop-shadow(10px 10px 10px black);
+  	filter: drop-shadow(10px 10px 10px black);
+}
+
+#oneyear {
+	width: 40vmin;
+	height: 40vmin;
+	float: right;
+	margin-left: 2vmin;
+	box-shadow: 10px 10px 10px black;
+	margin-bottom: 1.5vmin;
+}
+
+#team10f22 {
+	width: 50.5vmin;
+	height: 37vmin;
+	float: right;
+	margin-left: 2vmin;
+	box-shadow: 10px 10px 10px black;
+	margin-bottom: 1.5vmin;
 }
