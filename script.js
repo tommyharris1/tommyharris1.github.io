@@ -24,7 +24,7 @@ $(document).ready(function() {
     $("#current").html(`
       <h1>Employment</h1><br>
       <h2>Life Cycle Engineering - Jr. Software Engineer</h2>
-      <h3>June 2023 - Present</h3><br>
+      <h3>June 2023 - Present</h3>
       <img id="lce" src="./lce.png">
       <div class="content">
           I am currently employed as a Jr. Software Engineer at Life Cycle Engineering 
@@ -52,8 +52,16 @@ $(document).ready(function() {
           these fleets as it provides information and safe operation on ship elements such as propulsion, 
           electrical generators, and auxiliary devices.<br>
           Supporting this team taught me a lot about how ship systems function and how ECS manages those 
-          systems. Some skills I learned include ECS Page Building, programming in Ada, Modbus communications 
-          systems, console configurations on Windows 10 OS, and Remote Terminal Unit (VRTU) communications.<br>
+          systems. Some skills I learned and utilized include:
+          <ul style="text-indent: 10px;">
+              <li>ECS Page Building</li>
+              <li>Programming in Ada, Bash, and Batch</li>
+              <li>Modbus bitwise communications</li>
+              <li>Logic & Analog/Digital programming in ROSE</li>
+              <li>Console configurations running Windows 10 OS</li>
+              <li>Remote Terminal Unit (VRTU) communications</li>
+              <li>C++ Development on Windows XP OS</li>
+          </ul>
           Providing software support to LPD 17 ECS under LCE has opened the door to new experiences
           and opportunities.<br>
           In September 2024, I got to travel to San Diego, CA and go onboard USS John P. Murtha, where I performed 
@@ -68,9 +76,22 @@ $(document).ready(function() {
           development and deployment for a more modern and newer framework for Navy ship controls. Other integrators 
           within NAVSEA Philadelphia (including LPD 28 ECS and Coast Guard Machinery Control Systems) rely on this 
           framework as a basis for developing their own systems, which they then deliver out to other fleets.<br>
-          Being a part of PIMCS has allowed me to improve on some of my existing skills, such as Java programming, Agile methodologies and
-          network packet scanning in Wireshark. I've also picked up new skills including Java frameworks (Spring, AssertJ, Mockito), 
-          template programming in Apache Velocity, and data communications through Programmable Logic Controllers (PLCs).
+          Similar to the LPD 17 ECS legacy framework, the PIMCS framework contains some (but not all) ship components 
+          such as propulsion and ballast. Java Spring is primarily used for the frontend elements of the PIMCS application, 
+          whereas Apache Velocity templates and other Java libraries support the backend. Since our main objective is to 
+          provide an application framework, not all functionalities of a finished software product are included. Nevertheless, 
+          some select technical components are included for the sake of testing such as alarm severity systems and PLC 
+          data transmissions.
+          Some skills I have utilized with PIMCS include:
+          <ul style="text-indent: 10px;">
+              <li>Java (Spring and AssertJ frameworks)</li>
+              <li>Agile development methodologies</li>
+              <li>Network packet scanning in Wireshark</li>
+              <li>Template programming in Apache Velocity</li>
+              <li>Data communications in Programmable Logic Controllers (PLCs) using RSLogix 5000</li>
+              <li>Data definitions in Extensible Markup Language (XML)</li>
+              <li>Git and GitLab</li>
+          </ul>
       </div>
       <div class="image-right">
           <img src="./1year.jpg" id="oneyear">
@@ -106,11 +127,52 @@ $(document).ready(function() {
       </div>
       <div class="image-right">
           <img src="./team10f22.jpg" id="team10f22">
-          <div class="subtitle">Team 10 - Fall 2022 Semester<br>Pictured left to right: Alex Darby, Dylan Lazzari, Moira Tews,<br>Tommy Harris, CJ Mitterer, Arooj Liaqat</div>
+          <div class="subtitle">Team 10 - Fall 2022 Semester<br>Pictured left to right: Alex Darby, Dylan Lazzari, Moira Tews,<br>
+          Tommy Harris, CJ Mitterer, Arooj Liaqat</div>
       </div>
       <div class="content">
-          During the Fall 2022 semester, the project that I worked on under Dr. Saponaro's supervision was known as QRVision.<br>
+          During the Fall 2022 semester, the project that my team and I worked on under Dr. Saponaro's supervision was known as QRVision.
           The goal of the project was to create a redeemable points system for usage in local state parks in the Newark, DE area.
+          Visitors to said parks can scan QR codes using their mobile devices to collect points. These points can then be redeemed
+          for rewards pertaining to local Newark businesses. A side effort of this project was getting businesses onboard with the project
+          as partners; some of them included UD Athletics, TedX, and UDairy Creamery.<br>
+          The efforts my team and I contributed focused mostly on backend functionality i.e. the "behind the scenes" server-side code 
+          that handles data management and user requests. My contributions included encryption and decryption for end-to-end communications 
+          for heightened security and sending AJAX POST requests for checking and modifying user points. Languages and software utilized include:
+      </div>
+      <img id="cisudlogo" src="./cisudlogo.jpg">
+      <div class="content">
+          During the Spring 2023 semester, my team and I were assigned a new project (again under Dr. Saponaro) known simply as TA Automation. 
+          The goal of the project was to create a foundation for a new system that manages several assets of Teaching Assistants for the 
+          Computer & Information Sciences Department at the University of Delaware.<br>
+          Prior to starting this project, the responsibilities performed by the TA Coordinator were more hands-on. They had to manually file 
+          paperwork, ensure TAs get paid in a timely manner, and pass the paperwork onto Human Resources (HR). This process took a long time 
+          to complete and TAs sometimes got paid later rather than sooner. A flow of processes was used as an overlay as to how the new 
+          automation system works. This pipeline included steps such as onboarding students through Criminal Background Checks and I-9, 
+          automatic emails being sent to TAs for owed back hours, and automatic emails being sent to TA Coordinator for entry of back hours 
+          and ensuring TAs are paid on-time.<br>
+      </div>
+      <div class="image-right">
+        <img src="./team10s23.jpg" id="team10s23">
+        <div class="subtitle">Team 10 - Spring 2023 Semester<br>Pictured left to right: Zac Golpira, Tommy Harris,<br>Moira Tews, Dylan Lazzari, Nick Steuernagle</div>
+      </div>
+      <div class="content">
+          My primary tasking for this project included using dataframes for each step of the pipeline and ensuring student names and information 
+          progresses through each dataframe correctly. Although it was mostly backend development, I also added some Quality-of-Life frontend 
+          features such as collapsible dataframes and calendar-style date selections.<br>
+          Languages and software utilized for both capstone projects include:
+          <ul style="text-indent: 10px;">
+              <li>Python (FastAPI, Pandas, and Behave libraries)</li>
+              <li>Javascript and HTML</li>
+              <li>JQuery and CryptoJS for JSON object encryption</li>
+              <li>pycryptodome and hashlib for JSON object decryption</li>
+              <li>Google Sheets (database)</li>
+              <li>PyCharm IDE</li>
+              <li>Asana (Task planning)</li>
+              <li>Clockify, Notion (Agile Methodologies)</li>
+              <li>Discord (Communication)</li>
+              <li>Git and GitHub</li>
+          </ul>
       </div>
     `);
   });
@@ -123,7 +185,8 @@ $(document).ready(function() {
       <h3>B.S. Computer Science, May 2023</h3><br>
       <img id="udlogo" src="./udlogo.png">
       <div class="content">
-          I graduated from the University of Delaware in May 2023.
+          I graduated from the University of Delaware in May 2023.<br>
+          
       </div>
     `);
   });

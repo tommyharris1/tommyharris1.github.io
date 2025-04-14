@@ -268,9 +268,27 @@ button:focus {
 }
 
 #team10f22 {
-	width: 50.5vmin;
-	height: 37vmin;
+	width: 55vmin;
+	height: 40vmin;
 	float: right;
+	margin-left: 2vmin;
+	box-shadow: 10px 10px 10px black;
+	margin-bottom: 1.5vmin;
+}
+
+#cisudlogo {
+	width: 22vmin;
+	height: 21vmin;
+	float: left;
+	margin-right: 3vmin;
+	box-shadow: 10px 10px 10px black;
+}
+
+#team10s23 {
+	width: 40vmin;
+	height: 40vmin;
+	float: right;
+	right: 0%;
 	margin-left: 2vmin;
 	box-shadow: 10px 10px 10px black;
 	margin-bottom: 1.5vmin;
