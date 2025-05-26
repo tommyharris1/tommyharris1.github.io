@@ -36,6 +36,21 @@
     }
 }
 
+.fade-in-page {
+	opacity: 0;
+	transform: translateY(20vh);
+	visibility: hidden;
+	transition: opacity 1200ms ease-out, transform 600ms ease-out,
+		visibility 1200ms ease-out;
+	will-change: opacity, transform, visibility;
+}
+
+.fade-in-page.is-visible {
+	opacity: 1;
+	transform: none;
+	visibility: visible;
+}
+
 body {
 	background: #07153f;
 	animation: fadeInAnimation ease 1.5s;
@@ -222,7 +237,7 @@ button:focus {
 
 .subtitle {
 	text-align: center;
-	font-size: 1.9vmin;
+	font-size: 1.7vmin;
 	color: white;
 }
 
@@ -276,20 +291,11 @@ button:focus {
 	margin-bottom: 1.5vmin;
 }
 
-#cisudlogo {
-	width: 22vmin;
-	height: 21vmin;
-	float: left;
-	margin-right: 3vmin;
-	box-shadow: 10px 10px 10px black;
-}
-
 #team10s23 {
 	width: 40vmin;
 	height: 40vmin;
-	float: right;
-	right: 0%;
-	margin-left: 2vmin;
-	box-shadow: 10px 10px 10px black;
+	float: left;
 	margin-bottom: 1.5vmin;
+	margin-right: 2.5vmin;
+	box-shadow: 10px 10px 10px black;
 }

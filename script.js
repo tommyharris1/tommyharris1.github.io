@@ -140,7 +140,10 @@ $(document).ready(function() {
           that handles data management and user requests. My contributions included encryption and decryption for end-to-end communications 
           for heightened security and sending AJAX POST requests for checking and modifying user points. Languages and software utilized include:
       </div>
-      <img id="cisudlogo" src="./cisudlogo.jpg">
+      <div class="image-left">
+          <img src="./team10s23.jpg" id="team10s23">
+          <div class="subtitle">Team 10 - Spring 2023 Semester<br>Pictured left to right:<br>Zac Golpira, Tommy Harris, Moira Tews,<br>Dylan Lazzari, Nick Steuernagle</div>
+      </div>
       <div class="content">
           During the Spring 2023 semester, my team and I were assigned a new project (again under Dr. Saponaro) known simply as TA Automation. 
           The goal of the project was to create a foundation for a new system that manages several assets of Teaching Assistants for the 
@@ -153,8 +156,7 @@ $(document).ready(function() {
           and ensuring TAs are paid on-time.<br>
       </div>
       <div class="image-right">
-        <img src="./team10s23.jpg" id="team10s23">
-        <div class="subtitle">Team 10 - Spring 2023 Semester<br>Pictured left to right: Zac Golpira, Tommy Harris,<br>Moira Tews, Dylan Lazzari, Nick Steuernagle</div>
+        
       </div>
       <div class="content">
           My primary tasking for this project included using dataframes for each step of the pipeline and ensuring student names and information 
