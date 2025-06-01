@@ -9,10 +9,22 @@ $(document).ready(function() {
   $("#dropdown-content button").click(async function() {
     $("#dropdown-content button").css("text-shadow", "1px 1px 2px black");
     $(this).css("text-shadow",
-      "5px 5px 2px black");
+      "2.5px 2.5px 1px black");
     $("#current").fadeOut(WAIT_TIME);
     $("#current").fadeIn(WAIT_TIME);
+    $("#dropdown-content").css("animation", "growUp 200ms ease-in-out forwards");
   });
+
+  $(".dropdown").hover(
+    async function() {
+      $("#dropdown-content").css("animation", "growDown 200ms ease-in-out forwards");
+      $("#dropdown-content").css("transform-origin", "top center");
+      $("#dropdown-content").css("display", "block");
+    },
+    async function() {
+      $("#dropdown-content").css("animation", "growUp 200ms ease-in-out forwards");
+    },
+);
 
   $("#home-btn").click(async function() {
     await sleep();
@@ -108,7 +120,17 @@ $(document).ready(function() {
           motivational support system behind you. LCE has without a doubt exceeded my professional and personal expectations 
           for nearly 2 years and I'm certain they will continue to do so for the future. I will always be grateful for
           all that my program managers and the staff at LCE have done for me.<br><br>
-      </div>
+      </div><br>
+
+      <h2>Frontier Technologies Inc. - Certification Training Consultant (Part-Time)</h2>
+      <h3>January 2023 - May 2023</h3>
+      <img id="fti" src="./fti.png">
+      <div class="content">
+        Primarily during Winter Break of my senior year undergraduate studies, I partook in a Certification 
+        Training program with Frontier Technologies Inc. This was a part-time and fully remote role with the 
+        corporate office in Wilmington, DE.<br>
+      </div><br>
+
       <h2>A.I. Whoo - Software Engineer & Team Member</h2>
       <h3>August 2022 - May 2023</h3><br>
       <img id="aiwhoo" src="./aiwhoo.png">
@@ -193,17 +215,13 @@ $(document).ready(function() {
     `);
   });
 
-  $("#prsnl-btn").click(async function() {
+  $("#proj-btn").click(async function() {
     await sleep();
     $("#current").html(`
-      <h1 class="left-side">Personal Life</h1><br><br>
-    `);
-  });
-
-  $("#hob-btn").click(async function() {
-    await sleep();
-    $("#current").html(`
-      <h1 class="left-side">Hobbies</h1><br><br>
+      <h1>Projects</h1><br>
+      <div class="content">
+          Projects placeholder!<br>
+      </div>
     `);
   });
 });

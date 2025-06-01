@@ -108,7 +108,7 @@ button:focus {
 
 .dropdown button {
 	color: #993108;
-	font-size: 2.2vmin;
+	font-size: 20px;
 	text-shadow: 1px 1px 2px black;
 	transition: transform 0.3s ease;
 }
@@ -125,26 +125,14 @@ button:focus {
 	position: absolute;
 	min-width: 25.6vmin;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	background-color: rgba(131, 131, 131, 0.5);
-	border-radius: 8px;
+	background-color: rgba(107, 104, 104, 0.97);
+	border-radius: 4px;
 	z-index: 1;
 }
 
 #dropdown-content button {
 	padding: 12px 16px;
 	text-decoration: none;
-	display: block;
-}
-
-.dropdown:hover #dropdown-content {
-	animation: growDown 300ms ease-in-out forwards;
-    transform-origin: top center;
-	display: block;
-}
-
-.dropdown:not(hover) #dropdown-content {
-	animation: growUp 300ms ease-in-out forwards;
-    transform-origin: top center;
 	display: block;
 }
 
@@ -158,10 +146,6 @@ button:focus {
 
 .dropdown:hover #dropbtn #three {
 	transform: translateY(-2.5vmin) rotate(-45deg);
-}
-
-.dropdown:not(hover) #dropbtn {
-	animation: growDown 300ms forwards;
 }
 
 #dropbtn {
@@ -201,12 +185,22 @@ button:focus {
 }
 
 .content {
-	font-size: 2.2vmin;
+	font-size: 2.5vmin;
 	color: #f08520;
 	text-align: left;
 	line-height: 2;
 	justify-content: center;
 	align-items: flex-start;
+}
+
+#fti {
+	width: 45vmin;
+	height: 12vmin;
+	float: left;
+	margin-top: 1.5vmin;
+	margin-right: 2vmin;
+	-webkit-filter: drop-shadow(10px 10px 10px black);
+  	filter: drop-shadow(10px 10px 10px black);
 }
 
 #lce {
