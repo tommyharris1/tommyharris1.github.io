@@ -36,8 +36,9 @@ $(document).ready(function() {
     $("#current").html(`
       <h1>Employment</h1><br>
       <h2>Life Cycle Engineering - Jr. Software Engineer</h2>
+      <h3>Philadelphia, PA</h3>
       <h3>June 2023 - Present</h3>
-      <img id="lce" src="./lce.png">
+      <img id="lce" src="images/lce.png">
       <div class="content">
           I am currently employed as a Jr. Software Engineer at Life Cycle Engineering 
           at the Navy Yard in Philadelphia, PA.<br>
@@ -54,7 +55,7 @@ $(document).ready(function() {
           my career as a Software Developer.<br>
       </div>
       <div class="image-right">
-          <img src="./lpd26.avif" id="lpd26">
+          <img src="images/lpd26.avif" id="lpd26">
           <div class="subtitle">USS John P. Murtha (LPD 26)</div>
       </div>
       <div class="content">
@@ -81,7 +82,7 @@ $(document).ready(function() {
           gave me the chance to learn first-hand how the work I do positively impacts U.S. Navy operations and 
           how sailors rely on engineers like myself to build and maintain system functionality.<br>
       </div>
-      <img id="navsea" src="./navsea.jpg"><br>
+      <img id="navsea" src="images/navsea.jpg"><br>
       <div class="content">
           In November 2024, I started providing software support to a different customer under NAVSEA Philadelphia
           known as Platform Independent Machinery Control Systems (PIMCS). Unlike LPD 17 ECS, PIMCS provides continuous
@@ -106,7 +107,7 @@ $(document).ready(function() {
           </ul>
       </div>
       <div class="image-right">
-          <img src="./1year.jpg" id="oneyear">
+          <img src="images/1year.jpg" id="oneyear">
           <div class="subtitle">1 Year Milestone with LCE<br>Mark Medvetz (program manager) & Myself</div>
       </div>
       <div class="content">
@@ -123,17 +124,32 @@ $(document).ready(function() {
       </div><br>
 
       <h2>Frontier Technologies Inc. - Certification Training Consultant (Part-Time)</h2>
+      <h3>Remote (Wilmington, DE)</h3>
       <h3>January 2023 - May 2023</h3>
-      <img id="fti" src="./fti.png">
+      <img id="fti" src="images/fti.png">
       <div class="content">
         Primarily during Winter Break of my senior year undergraduate studies, I partook in a Certification 
-        Training program with Frontier Technologies Inc. This was a part-time and fully remote role with the 
+        Training program with Frontier Technologies Inc (FTI). This was a part-time and fully remote role with the 
         corporate office in Wilmington, DE.<br>
+        During my short time with FTI, I took multiple courses that improved my knowledge of Cybersecurity and 
+        Computers/Systems Engineering. All of theses courses included one or more knowledge assessments which presented me 
+        with a certificate of completion. The main courses that I completed were hosted by VMware, Palo Alto Networks, 
+        and IBM.<br>
+        <div class="image-right">
+          <img src="images/paloalto.png" id="paloalto">
+        </div>
+        Although I didn't get a chance to showcase or practice my Software Development skills, being a consultant 
+        for FTI was a great opportunity for my career growth. I gained lots of knowledge in topics such as 
+        Palo Alto Computer Architectures, VMware Carbon Black (and other similar products) etc. I even got a 
+        chance to meet some of the main staff members at FTI (including the company's CEO) and learn more about what they do and how 
+        Cybersecurity impacts today's business atmosphere. The growth I gained in knowledge and professional networking from 
+        FTI has greatly helped me get to where I am now in my career. 
       </div><br>
 
       <h2>A.I. Whoo - Software Engineer & Team Member</h2>
+      <h3>Newark, DE</h3>
       <h3>August 2022 - May 2023</h3><br>
-      <img id="aiwhoo" src="./aiwhoo.png">
+      <img id="aiwhoo" src="images/aiwhoo.png">
       <div class="content">
           During my senior year studying Computer Science at the University of Delaware, I provided software support for 
           the locally founded software corporation known as A.I. Whoo.<br>
@@ -148,7 +164,7 @@ $(document).ready(function() {
           such as meeting consistent weekly deadlines and ensuring our client is happy with code deliverables.<br>
       </div>
       <div class="image-right">
-          <img src="./team10f22.jpg" id="team10f22">
+          <img src="images/team10f22.jpg" id="team10f22">
           <div class="subtitle">Team 10 - Fall 2022 Semester<br>Pictured left to right: Alex Darby, Dylan Lazzari, Moira Tews,<br>
           Tommy Harris, CJ Mitterer, Arooj Liaqat</div>
       </div>
@@ -163,7 +179,7 @@ $(document).ready(function() {
           for heightened security and sending AJAX POST requests for checking and modifying user points. Languages and software utilized include:
       </div>
       <div class="image-left">
-          <img src="./team10s23.jpg" id="team10s23">
+          <img src="images/team10s23.jpg" id="team10s23">
           <div class="subtitle">Team 10 - Spring 2023 Semester<br>Pictured left to right:<br>Zac Golpira, Tommy Harris, Moira Tews,<br>Dylan Lazzari, Nick Steuernagle</div>
       </div>
       <div class="content">
@@ -178,7 +194,8 @@ $(document).ready(function() {
           and ensuring TAs are paid on-time.<br>
       </div>
       <div class="image-right">
-        
+        <img src="images/onboarding.png" id="onboarding">
+        <div class="subtitle">Initial Onboarding page<br>for TA Automation project</div>
       </div>
       <div class="content">
           My primary tasking for this project included using dataframes for each step of the pipeline and ensuring student names and information 
@@ -198,6 +215,27 @@ $(document).ready(function() {
               <li>Git and GitHub</li>
           </ul>
       </div>
+
+      <h2>University of Delaware Dept. of Computer and Info. Sciences - Teaching Assistant</h2>
+      <h3>Newark, DE</h3>
+      <h3>August 2022 - December 2022</h3><br>
+      <div class="content">
+        TA job placeholder!
+      </div>
+
+      <h2>Postmates & Uber Eats - Delivery Driver (Part-Time)</h2>
+      <h3>Clifton, NJ & Newark, DE</h3>
+      <h3>June 2020 - August 2022</h3><br>
+      <div class="content">
+        Delivery driver placeholder!
+      </div>
+
+      <h2>Wendy's - Cashier (Part-Time)</h2>
+      <h3>Wayne, NJ</h3>
+      <h3>June - August 2018</h3><br>
+      <div class="content">
+        Wendy's placeholder!
+      </div>
     `);
   });
 
@@ -207,7 +245,7 @@ $(document).ready(function() {
       <h1>Education</h1><br>
       <h2>The University of Delaware</h2>
       <h3>B.S. Computer Science, May 2023</h3><br>
-      <img id="udlogo" src="./udlogo.png">
+      <img id="udlogo" src="images/udlogo.png">
       <div class="content">
           I graduated from the University of Delaware in May 2023.<br>
           
