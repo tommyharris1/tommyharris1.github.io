@@ -228,7 +228,7 @@ $(document).ready(function() {
         student questions through Discord, and hosting office hours outside of class for students to receive additional help.<br>
         Being a TA for this course allowed me to re-familiarize myself with Python and its concepts. More importantly, 
         it allowed me to learn more about leadership and spreading knowledge in an educational setting.
-      </div>
+      </div><br>
 
       <h2>Postmates & Uber Eats - Delivery Driver (Part-Time)</h2>
       <h3>Clifton, NJ & Newark, DE</h3>
