@@ -232,17 +232,17 @@ $(document).ready(function() {
 
       <h2>Postmates & Uber Eats - Delivery Driver (Part-Time)</h2>
       <h3>Clifton, NJ & Newark, DE</h3>
-      <h3>June 2020 - August 2022</h3><br>
+      <h3>June 2020 - August 2022</h3>
       <div class="content">
         Delivery driver placeholder!
-      </div>
+      </div><br>
 
       <h2>Wendy's - Cashier (Part-Time)</h2>
       <h3>Wayne, NJ</h3>
-      <h3>June - August 2018</h3><br>
+      <h3>June - August 2018</h3>
       <div class="content">
         Wendy's placeholder!
-      </div>
+      </div><br>
     `);
   });
 
