@@ -193,24 +193,36 @@ button:focus {
 	align-items: flex-start;
 }
 
+.subtitle {
+	text-align: center;
+	font-size: 2vmin;
+	color: white;
+	margin: 1vmin;
+}
+
+.image-left {
+	justify-content: left;
+  	float: left;
+}
+
+.image-right {
+  	justify-content: right;
+	float: right;
+}
+
+.image-display {
+	display: flex;
+	flex-direction: column;
+}
+
 #fti {
 	width: 45vmin;
 	height: 12vmin;
-	float: left;
-	margin-top: 1.5vmin;
-	margin-right: 2vmin;
-	-webkit-filter: drop-shadow(10px 10px 10px black);
-  	filter: drop-shadow(10px 10px 10px black);
 }
 
 #lce {
 	width: 55vmin;
 	height: 17.5vmin;
-	float: left;
-	margin-top: 2vmin;
-	margin-right: 2vmin;
-	-webkit-filter: drop-shadow(10px 10px 10px black);
-  	filter: drop-shadow(10px 10px 10px black);
 }
 
 #udlogo {
@@ -220,44 +232,14 @@ button:focus {
 	margin-right: 3vmin;
 }
 
-#lpd26 {
-	box-shadow: 10px 10px 10px black;
-	width: 50.5vmin;
-	height: 33.5vmin;
-	float: right;
-	margin-top: 1.5vmin;
-	margin-left: 2.5vmin;
-	margin-bottom: 1.5vmin;
-}
-
-.subtitle {
-	text-align: center;
-	font-size: 2vmin;
-	color: white;
-	margin: 1vmin;
-}
-
-.image-left {
-	display: flex;
-	justify-content: left;
-  	float: left;
-  	flex-direction: column;
-}
-
-.image-right {
-  	display: flex;
-  	justify-content: right;
-	float: right;
-	flex-direction: column;
-}
-
 #navsea {
 	width: 38vmin;
 	height: 17.5vmin;
-	float: left;
-	margin-top: 1.5vmin;
-	margin-right: 2.5vmin;
-	box-shadow: 10px 10px 10px black;
+}
+
+#lpd26 {
+	width: 50.5vmin;
+	height: 33.5vmin;
 }
 
 #aiwhoo {
@@ -265,54 +247,58 @@ button:focus {
 	height: 11vmin;
 	float: left;
 	margin-right: 2vmin;
-	-webkit-filter: drop-shadow(10px 10px 10px black);
-  	filter: drop-shadow(10px 10px 10px black);
 }
 
 #oneyear {
 	width: 40vmin;
 	height: 40vmin;
-	float: right;
-	margin-left: 2vmin;
-	box-shadow: 10px 10px 10px black;
-	margin-bottom: 1.5vmin;
 }
 
 #team10f22 {
 	width: 55vmin;
 	height: 40vmin;
-	float: right;
-	margin-left: 2vmin;
-	box-shadow: 10px 10px 10px black;
-	margin-bottom: 1.5vmin;
 }
 
 #team10s23 {
 	width: 40vmin;
 	height: 40vmin;
-	float: left;
-	margin-bottom: 1.5vmin;
-	margin-right: 2.5vmin;
-	box-shadow: 10px 10px 10px black;
 }
 
 #onboarding {
 	width: 45vmin;
 	height: 45vmin;
-	float: right;
-	margin-top: 1.5vmin;
-	margin-left: 2vmin;
-	margin-bottom: 1.5vmin;
-	box-shadow: 10px 10px 10px black;
 }
 
 #paloalto {
 	width: 45vmin;
-	height: 10vmin;
+	height: 9vmin;
+}
+
+.png-shadow {
+	-webkit-filter: drop-shadow(10px 10px 10px black);
+  	filter: drop-shadow(10px 10px 10px black);
+}
+
+.box-shadow {
+	box-shadow: 10px 10px 10px black;
+}
+
+.img-left-margins {
+	float: left;
+	margin-top: 1.5vmin;
+	margin-bottom: 1.5vmin;
+	margin-right: 2.5vmin;
+}
+
+.img-left-small-margins {
+	float: left;
+	margin-top: 1.5vmin;
+	margin-right: 2vmin;
+}
+
+.img-right-margins {
 	float: right;
 	margin-top: 1.5vmin;
 	margin-bottom: 1.5vmin;
 	margin-left: 2vmin;
-	-webkit-filter: drop-shadow(10px 10px 10px black);
-  	filter: drop-shadow(10px 10px 10px black);
 }

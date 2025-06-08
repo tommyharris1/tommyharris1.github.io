@@ -38,7 +38,7 @@ $(document).ready(function() {
       <h2>Life Cycle Engineering - Jr. Software Engineer</h2>
       <h3>Philadelphia, PA</h3>
       <h3>June 2023 - Present</h3>
-      <img id="lce" src="images/lce.png">
+      <img class="png-shadow img-left-small-margins" id="lce" src="images/lce.png">
       <div class="content">
           I am currently employed as a Jr. Software Engineer at Life Cycle Engineering 
           at the Navy Yard in Philadelphia, PA.<br>
@@ -54,8 +54,8 @@ $(document).ready(function() {
           and, eventually, became a part of the LCE family. This ended up being the perfect jumpstart to
           my career as a Software Developer.<br>
       </div>
-      <div class="image-right">
-          <img src="images/lpd26.avif" id="lpd26">
+      <div class="image-display image-right">
+          <img class="box-shadow img-right-margins" id="lpd26" src="images/lpd26.avif">
           <div class="subtitle">USS John P. Murtha (LPD 26)</div>
       </div>
       <div class="content">
@@ -82,7 +82,7 @@ $(document).ready(function() {
           gave me the chance to learn first-hand how the work I do positively impacts U.S. Navy operations and 
           how sailors rely on engineers like myself to build and maintain system functionality.<br>
       </div>
-      <img id="navsea" src="images/navsea.jpg"><br>
+      <img class="box-shadow img-left-margins" id="navsea" src="images/navsea.jpg"><br>
       <div class="content">
           In November 2024, I started providing software support to a different customer under NAVSEA Philadelphia
           known as Platform Independent Machinery Control Systems (PIMCS). Unlike LPD 17 ECS, PIMCS provides continuous
@@ -106,8 +106,8 @@ $(document).ready(function() {
               <li>Git and GitLab</li>
           </ul>
       </div>
-      <div class="image-right">
-          <img src="images/1year.jpg" id="oneyear">
+      <div class="image-display image-right">
+          <img class="box-shadow img-right-margins" id="oneyear" src="images/1year.jpg">
           <div class="subtitle">1 Year Milestone with LCE<br>Mark Medvetz (program manager) & Myself</div>
       </div>
       <div class="content">
@@ -126,7 +126,7 @@ $(document).ready(function() {
       <h2>Frontier Technologies Inc. - Certification Training Consultant (Part-Time)</h2>
       <h3>Remote (Wilmington, DE)</h3>
       <h3>January 2023 - May 2023</h3>
-      <img id="fti" src="images/fti.png">
+      <img class="png-shadow img-left-small-margins" id="fti" src="images/fti.png">
       <div class="content">
         Primarily during Winter Break of my senior year undergraduate studies, I partook in a Certification 
         Training program with Frontier Technologies Inc (FTI). This was a part-time and fully remote role with the 
@@ -135,8 +135,8 @@ $(document).ready(function() {
         Computers/Systems Engineering. All of theses courses included one or more knowledge assessments which presented me 
         with a certificate of completion. The main courses that I completed were hosted by VMware, Palo Alto Networks, 
         and IBM.<br>
-        <div class="image-right">
-          <img src="images/paloalto.png" id="paloalto">
+        <div class="image-display image-right">
+          <img class="png-shadow img-right-margins" id="paloalto" src="images/paloalto.png">
         </div>
         Although I didn't get a chance to showcase or practice my Software Development skills, being a consultant 
         for FTI was a great opportunity for my career growth. I gained lots of knowledge in topics such as 
@@ -149,7 +149,7 @@ $(document).ready(function() {
       <h2>A.I. Whoo - Software Engineer & Team Member</h2>
       <h3>Newark, DE</h3>
       <h3>August 2022 - May 2023</h3><br>
-      <img id="aiwhoo" src="images/aiwhoo.png">
+      <img class="png-shadow" id="aiwhoo" src="images/aiwhoo.png">
       <div class="content">
           During my senior year studying Computer Science at the University of Delaware, I provided software support for 
           the locally founded software corporation known as A.I. Whoo.<br>
@@ -163,8 +163,8 @@ $(document).ready(function() {
           utilization of enterprise software for a large organization. These lessons came with their own sets of challenges as well,
           such as meeting consistent weekly deadlines and ensuring our client is happy with code deliverables.<br>
       </div>
-      <div class="image-right">
-          <img src="images/team10f22.jpg" id="team10f22">
+      <div class="image-display image-right">
+          <img class="box-shadow img-right-margins" id="team10f22" src="images/team10f22.jpg">
           <div class="subtitle">Team 10 - Fall 2022 Semester<br>Pictured left to right: Alex Darby, Dylan Lazzari, Moira Tews,<br>
           Tommy Harris, CJ Mitterer, Arooj Liaqat</div>
       </div>
@@ -178,8 +178,8 @@ $(document).ready(function() {
           that handles data management and user requests. My contributions included encryption and decryption for end-to-end communications 
           for heightened security and sending AJAX POST requests for checking and modifying user points. Languages and software utilized include:
       </div>
-      <div class="image-left">
-          <img src="images/team10s23.jpg" id="team10s23">
+      <div class="image-display image-left">
+          <img class="box-shadow img-left-margins" id="team10s23" src="images/team10s23.jpg">
           <div class="subtitle">Team 10 - Spring 2023 Semester<br>Pictured left to right:<br>Zac Golpira, Tommy Harris, Moira Tews,<br>Dylan Lazzari, Nick Steuernagle</div>
       </div>
       <div class="content">
@@ -193,8 +193,8 @@ $(document).ready(function() {
           automatic emails being sent to TAs for owed back hours, and automatic emails being sent to TA Coordinator for entry of back hours 
           and ensuring TAs are paid on-time.<br>
       </div>
-      <div class="image-right">
-        <img src="images/onboarding.png" id="onboarding">
+      <div class="image-display image-right">
+        <img class="box-shadow img-right-margins" id="onboarding"src="images/onboarding.png">
         <div class="subtitle">Initial Onboarding page<br>for TA Automation project</div>
       </div>
       <div class="content">
@@ -216,11 +216,18 @@ $(document).ready(function() {
           </ul>
       </div>
 
-      <h2>University of Delaware Dept. of Computer and Info. Sciences - Teaching Assistant</h2>
+      <h2>University of Delaware Dept. of Computer and Info. Sciences - Teaching Assistant (Part-Time)</h2>
       <h3>Newark, DE</h3>
-      <h3>August 2022 - December 2022</h3><br>
+      <h3>August 2022 - December 2022</h3>
+      <img class="png-shadow img-left-margins" id="cisud" src="images/cisudlogo.jpg">
       <div class="content">
-        TA job placeholder!
+        I served as an undergraduate Teaching Assistant (TA) in the UD CIS Dept. during the Fall 2022 semester.<br>
+        The course I was assigned to was CISC 106 - General Computer Science for Engineers, an introductory Computer Science course 
+        for First-Year Engineering students. The course covered various programming practices and techniques, as well as basic 
+        programming in Python. Some of my duties included instructing in-class activities, grading worksheets, answering 
+        student questions through Discord, and hosting office hours outside of class for students to receive additional help.<br>
+        Being a TA for this course allowed me to re-familiarize myself with Python and its concepts. More importantly, 
+        it allowed me to learn more about leadership and spreading knowledge in an educational setting.
       </div>
 
       <h2>Postmates & Uber Eats - Delivery Driver (Part-Time)</h2>
