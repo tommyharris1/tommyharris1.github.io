@@ -251,7 +251,8 @@ $(document).ready(function() {
     $("#current").html(`
       <h1>Education</h1><br>
       <h2>The University of Delaware</h2>
-      <h3>B.S. Computer Science, May 2023</h3><br>
+      <h3>B.S. Computer Science (Cybersecurity focus), May 2023</h3>
+      <h3>Appied Trombone Minor</h3><br>
       <img id="udlogo" src="images/udlogo.png">
       <div class="content">
           I graduated from the University of Delaware in May 2023.<br>
