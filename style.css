@@ -52,7 +52,7 @@
 }
 
 body {
-	background: #07153f;
+	background: #14214b;
 	animation: fadeInAnimation ease 1.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -234,6 +234,7 @@ button:focus {
 }
 
 #navsea {
+	margin-top: 4vmin;
 	width: 38vmin;
 	height: 17.5vmin;
 }
@@ -275,6 +276,16 @@ button:focus {
 	height: 9vmin;
 }
 
+#cisud {
+	width: 22vmin;
+	height: 22vmin;
+}
+
+#ue-pm {
+	width: 40vmin;
+	height: 22vmin;
+}
+
 .png-shadow {
 	-webkit-filter: drop-shadow(10px 10px 10px black);
   	filter: drop-shadow(10px 10px 10px black);
@@ -287,7 +298,7 @@ button:focus {
 .img-left-margins {
 	float: left;
 	margin-top: 1.5vmin;
-	margin-bottom: 1.5vmin;
+	margin-bottom: 1vmin;
 	margin-right: 2.5vmin;
 }
 

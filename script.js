@@ -233,8 +233,22 @@ $(document).ready(function() {
       <h2>Postmates & Uber Eats - Delivery Driver (Part-Time)</h2>
       <h3>Clifton, NJ & Newark, DE</h3>
       <h3>June 2020 - August 2022</h3>
+      <img class="png-shadow img-left-margins" id="ue-pm" src="images/ue-pm.png">
       <div class="content">
-        Delivery driver placeholder!
+        During semester breaks in the midst of my undergraduate studies, I worked as a Delivery Driver for Postmates and 
+        eventually Uber Eats.<br>
+        Being a Delivery Driver was a fantastic job opportunity as it was (mostly) easy to 
+        do and could be done from anywhere. Working as a Delivery Driver through an online platform mitigated having to 
+        keep employers informed since I was able to set my own schedule and work at my own pace.<br>
+        I first started working for Postmates in June 2020 amidst the ongoing COVID-19 pandemic. At that time, lots of places 
+        were not hiring due to the negative effects the pandemic brought onto the workforce. Making money on the side through 
+        Postmates was the best thing for me to do given the circumstances. Although the driver-side application for iPhone 
+        wasn't the most intuitive and Postmates itself was somewhat "sketchy", starting with them was a great opportunity 
+        for me to start my side career in food delivery.<br>
+        In December 2020, Postmates Inc. was acquired by Uber for $2.65 billion. As a part of this deal, Postmates' delivery 
+        network became integrated with Uber Eats and most drivers from the former transitioned to the latter. Knowing 
+        how I already had experience in food delivery and the advantages of Uber Eats, I agreed to transition and started 
+        delivering for Uber Eats in May 2021.
       </div><br>
 
       <h2>Wendy's - Cashier (Part-Time)</h2>
