@@ -137,18 +137,6 @@ button:focus {
 	display: block;
 }
 
-.dropdown:hover #dropbtn #one {
-	transform: translateY(3vmin) rotate(45deg);
-}
-
-.dropdown:hover #dropbtn #two {
-	opacity: 0;
-}
-
-.dropdown:hover #dropbtn #three {
-	transform: translateY(-3vmin) rotate(-45deg);
-}
-
 #dropbtn {
 	border: none;
 	position: relative;

@@ -15,16 +15,22 @@ $(document).ready(function() {
     $("#dropdown-content").css("animation", "growUp 200ms ease-in-out forwards");
   });
 
-  $(".dropdown").hover(
-    async function() {
+  $(".dropdown").click(function() {
+    if($("#dropbtn #one").css("transform") == "none") {
+      $("#dropbtn #one").css("transform", "translateY(3vmin) rotate(45deg)");
+      $("#dropbtn #two").css("opacity", "0");
+      $("#dropbtn #three").css("transform", "translateY(-3vmin) rotate(-45deg)");
       $("#dropdown-content").css("animation", "growDown 200ms ease-in-out forwards");
       $("#dropdown-content").css("transform-origin", "top center");
       $("#dropdown-content").css("display", "block");
-    },
-    async function() {
+    }
+    else {
+      $("#dropbtn #one").css("transform", "");
+      $("#dropbtn #two").css("opacity", "");
+      $("#dropbtn #three").css("transform", "");
       $("#dropdown-content").css("animation", "growUp 200ms ease-in-out forwards");
-    },
-);
+    }
+  });
 
   $("#home-btn").click(async function() {
     await sleep();
