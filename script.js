@@ -125,7 +125,7 @@ $(document).ready(function() {
           Later this year, I will be achieving my 2-year milestone with LCE. Being a successful Software Engineer
           for any company not only includes being knowledgeable in your field, but also having an outstanding and 
           motivational support system behind you. LCE has without a doubt exceeded my professional and personal expectations 
-          for nearly 2 years and I'm certain they will continue to do so for the future. I will always be grateful for
+          for over two years and I'm certain they will continue to do so for the future. I will always be grateful for
           all that my program managers and the staff at LCE have done for me.<br><br>
       </div><br>
 
@@ -254,14 +254,25 @@ $(document).ready(function() {
         In December 2020, Postmates Inc. was acquired by Uber for $2.65 billion. As a part of this deal, Postmates' delivery 
         network became integrated with Uber Eats and most drivers from the former transitioned to the latter. Knowing 
         how I already had experience in food delivery and the advantages of Uber Eats, I agreed to transition and started 
-        delivering for Uber Eats in May 2021.
+        delivering for Uber Eats in May 2021.<br>
+        Uber Eats presented many upsides in comparison to Postmates. I was able to see the expected earnings amount for 
+        each delivery, received reimbursements for tolls on deliveries, and saw exact locations for pickup and dropoff locations 
+        through the in-app navigation system. Being particular about which delivery offers to accept/reject helped me make the 
+        most out of food delivery. For instance, when receiving a $4.00 offer for a 20 minute estimated delivery time, it's 
+        best to decline and await a delivery that has a better chance of leaving a tip.<br>
+        I worked for Uber Eats during my time off from undergraduate studies until my senior year (2022-23). Although I am 
+        in a much better place career wise, it was great to "be my own boss" and flexibly work anywhere.
       </div><br>
-
       <h2>Wendy's - Cashier (Part-Time)</h2>
       <h3>Wayne, NJ</h3>
       <h3>June - August 2018</h3>
+      <img class="png-shadow img-left-margins" id="wendys" src="images/wendys.png">
       <div class="content">
-        Wendy's placeholder!
+        During summer break after my junior year of high school, I worked part-time as a Cashier at Wendy's in Wayne, NJ.<br>
+        My main tasks included taking customer orders in the dining room and drive-thru, maintaining counter and dining room 
+        cleanliness, re-stocking condiments and cups, and handling some food preparation and bagging. I also learned more about 
+        working as part of a team and coordinating with others to quickly complete customer orders. I left Wendy's in August 
+        2018 shortly before school started.
       </div><br>
     `);
   });
@@ -275,8 +286,13 @@ $(document).ready(function() {
       <h3>Appied Trombone Minor</h3><br>
       <img id="udlogo" src="images/udlogo.png">
       <div class="content">
-          I graduated from the University of Delaware in May 2023.<br>
-          
+          My journey at the University of Delaware was an interesting one. I was a senior in high school when I was deciding on 
+          a college to attend. I knew that I wanted to major in Computer Science given my extensive interest in computers 
+          growing up. Although I had also received offers from Hofstra, Monmouth, and Penn State Harrisburg, the University of 
+          Delaware presented me with the warmest and friendliest environment in terms of student life and campus appearance. I 
+          had initially been admitted to UD for a Music major program on trombone (my secondary choice when applying), but I 
+          submitted an appeal and successfully got into a B.A. Computer Science program.
+          I made my official first move to UD in August 2019 where I stayed in the Harrington dorms.
       </div>
     `);
   });
