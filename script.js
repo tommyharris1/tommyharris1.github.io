@@ -286,13 +286,22 @@ $(document).ready(function() {
       <h3>Appied Trombone Minor</h3><br>
       <img id="udlogo" src="images/udlogo.png">
       <div class="content">
-          My journey at the University of Delaware was an interesting one. I was a senior in high school when I was deciding on 
-          a college to attend. I knew that I wanted to major in Computer Science given my extensive interest in computers 
-          growing up. Although I had also received offers from Hofstra, Monmouth, and Penn State Harrisburg, the University of 
-          Delaware presented me with the warmest and friendliest environment in terms of student life and campus appearance. I 
-          had initially been admitted to UD for a Music major program on trombone (my secondary choice when applying), but I 
-          submitted an appeal and successfully got into a B.A. Computer Science program.
-          I made my official first move to UD in August 2019 where I stayed in the Harrington dorms.
+        My journey at the University of Delaware was an interesting one. I was a senior in high school when I was deciding on 
+        a college to attend. I knew that I wanted to major in Computer Science given my extensive interest in computers 
+        growing up. Although I had also received offers from Hofstra, Monmouth, and Penn State Harrisburg, the University of 
+        Delaware presented me with the warmest and friendliest environment in terms of student life and campus appearance. I 
+        had initially been admitted to UD for a Music major program on trombone (my secondary choice when applying), but I 
+        submitted an appeal and successfully got into a B.A. Computer Science program.
+        I made my official first move to UD in August 2019 where I stayed in the Harrington dorms.
+      </div>
+      <div class="img-right-margins" style="width: 45%; position: relative; display: block;">
+        <div>
+          <img class="box-shadow img-right-margins" id="fall19" src="images/fall19_1.jpg">
+          <img class="box-shadow img-right-margins" id="fall19" src="images/fall19_2.jpg">
+        </div>
+        <div class="subtitle">My first day on campus - Fall 2019</div>
+      </div>
+      <div class="content">
       </div>
     `);
   });

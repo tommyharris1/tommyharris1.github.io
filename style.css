@@ -279,6 +279,11 @@ button:focus {
 	height: 25vmin;
 }
 
+#fall19 {
+	width: 35vmin;
+	height: 50vmin;
+}
+
 .png-shadow {
 	-webkit-filter: drop-shadow(10px 10px 10px black);
   	filter: drop-shadow(10px 10px 10px black);
