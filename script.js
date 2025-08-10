@@ -296,8 +296,8 @@ $(document).ready(function() {
       </div>
       <div class="img-right-margins" style="width: 45%; position: relative; display: block;">
         <div>
-          <img class="box-shadow img-right-margins" id="fall19" src="images/fall19_1.jpg">
-          <img class="box-shadow img-right-margins" id="fall19" src="images/fall19_2.jpg">
+          <img class="box-shadow img-right-margins" id="fall19" src="images/fall19_1.JPG">
+          <img class="box-shadow img-right-margins" id="fall19" src="images/fall19_2.JPG">
         </div>
         <div class="subtitle">My first day on campus - Fall 2019</div>
       </div>
