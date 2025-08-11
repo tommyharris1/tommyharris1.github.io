@@ -259,7 +259,9 @@ $(document).ready(function() {
         each delivery, received reimbursements for tolls on deliveries, and saw exact locations for pickup and dropoff locations 
         through the in-app navigation system. Being particular about which delivery offers to accept/reject helped me make the 
         most out of food delivery. For instance, when receiving a $4.00 offer for a 20 minute estimated delivery time, it's 
-        best to decline and await a delivery that has a better chance of leaving a tip.<br>
+        best to decline and await a delivery that has a better chance of leaving a tip. There are also other factors 
+        to consider, such as delivering to apartment buildings, restaurant closing times, and long drive-thru lines at fast 
+        food restaurants when the dining room is closed.<br>
         I worked for Uber Eats during my time off from undergraduate studies until my senior year (2022-23). Although I am 
         in a much better place career wise, it was great to "be my own boss" and flexibly work anywhere.
       </div><br>
@@ -272,7 +274,7 @@ $(document).ready(function() {
         My main tasks included taking customer orders in the dining room and drive-thru, maintaining counter and dining room 
         cleanliness, re-stocking condiments and cups, and handling some food preparation and bagging. I also learned more about 
         working as part of a team and coordinating with others to quickly complete customer orders. I left Wendy's in August 
-        2018 shortly before school started.
+        2018 shortly before my senior year of high school started.
       </div><br>
     `);
   });
@@ -284,9 +286,9 @@ $(document).ready(function() {
       <h2>The University of Delaware</h2>
       <h3>B.S. Computer Science (Cybersecurity focus), May 2023</h3>
       <h3>Appied Trombone Minor</h3><br>
-      <img id="udlogo" src="images/udlogo.png">
+      <img id="udlogo" class="png-shadow" src="images/udlogo.png">
       <div class="content">
-        My journey at the University of Delaware was an interesting one. I was a senior in high school when I was deciding on 
+        My journey at the University of Delaware was a (somewhat) interesting one. I was a senior in high school when I was deciding on 
         a college to attend. I knew that I wanted to major in Computer Science given my extensive interest in computers 
         growing up. Although I had also received offers from Hofstra, Monmouth, and Penn State Harrisburg, the University of 
         Delaware presented me with the warmest and friendliest environment in terms of student life and campus appearance. I 
@@ -294,14 +296,20 @@ $(document).ready(function() {
         submitted an appeal and successfully got into a B.A. Computer Science program.
         I made my official first move to UD in August 2019 where I stayed in the Harrington dorms.
       </div>
-      <div class="img-right-margins" style="width: 45%; position: relative; display: block;">
-        <div>
-          <img class="box-shadow img-right-margins" id="fall19" src="images/fall19_1.JPG">
-          <img class="box-shadow img-right-margins" id="fall19" src="images/fall19_2.JPG">
-        </div>
+      <div class="img-right-margins" id="double-img">
+        <img class="box-shadow img-right-margins" id="fall19" src="images/fall19_1.JPG">
+        <img class="box-shadow img-right-margins" id="fall19" src="images/fall19_2.JPG">
         <div class="subtitle">My first day on campus - Fall 2019</div>
       </div>
       <div class="content">
+        Like many teens leaving their parents' nest to go to college, I started my undergraduate journey not knowing anyone 
+        or what I wanted to do. I had been taking an introductory Python course and a team-based engineering course, amongst 
+        other courses. Despite this, I still maintained a passion for trombone playing as I partook in Jazz Ensemble, Symphonic 
+        Band, and Trombone Choir. I had formed some small friendships and acquaintanceships with other students and professors 
+        during the semester, particularly other freshmen in my dorm, my Resident Assistant (RA) and my trombone professor. 
+        Despite the hardships I faced, including homesickness and having to drop out of my Calculus I class, I managed to make 
+        the Dean's List during my first semester and was determined to improve all aspects of my college life by the next semester.<br>
+        
       </div>
     `);
   });
