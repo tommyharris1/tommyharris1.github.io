@@ -41,6 +41,7 @@ $(document).ready(function() {
     await sleep();
     $("#current").html(`
       <h1>Employment</h1><br>
+
       <h2>Life Cycle Engineering - Jr. Software Engineer</h2>
       <h3>Philadelphia, PA</h3>
       <h3>June 2023 - Present</h3>
@@ -283,9 +284,10 @@ $(document).ready(function() {
     await sleep();
     $("#current").html(`
       <h1>Education</h1><br>
+
       <h2>The University of Delaware</h2>
       <h3>B.S. Computer Science (Cybersecurity focus), May 2023</h3>
-      <h3>Appied Trombone Minor</h3><br>
+      <h3>Applied Trombone Minor</h3><br>
       <img id="udlogo" class="png-shadow" src="images/udlogo.png">
       <div class="content">
         My journey at the University of Delaware was a (somewhat) interesting one. I was a senior in high school when I was deciding on 
@@ -296,9 +298,11 @@ $(document).ready(function() {
         submitted an appeal and successfully got into a B.A. Computer Science program.
         I made my official first move to UD in August 2019 where I stayed in the Harrington dorms.
       </div>
-      <div class="img-right-margins" id="double-img">
-        <img class="box-shadow img-right-margins" id="fall19" src="images/fall19_1.JPG">
-        <img class="box-shadow img-right-margins" id="fall19" src="images/fall19_2.JPG">
+      <div id="double-img">
+        <div class="images">
+          <img class="box-shadow" id="fall19" src="images/fall19_1.JPG">
+          <img class="box-shadow" id="fall19" src="images/fall19_2.JPG">
+        </div>
         <div class="subtitle">My first day on campus - Fall 2019</div>
       </div>
       <div class="content">
@@ -309,7 +313,17 @@ $(document).ready(function() {
         during the semester, particularly other freshmen in my dorm, my Resident Assistant (RA) and my trombone professor. 
         Despite the hardships I faced, including homesickness and having to drop out of my Calculus I class, I managed to make 
         the Dean's List during my first semester and was determined to improve all aspects of my college life by the next semester.<br>
-        
+      </div>
+      <div class="content">
+        I returned to campus in the spring with high hopes of becoming more involved outside of classes, getting through my heavy 
+        course load (including re-taking Calculus I), and creating stronger friendships.
+      </div><br>
+
+      <h2>Clifton High School</h2>
+      <h3>Class of 2019</h3>
+      <h3>Clifton, NJ</h3>
+      <div class="content">
+        I received my high school diploma from Clifton High School in June 2019.
       </div>
     `);
   });

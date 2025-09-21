@@ -314,15 +314,16 @@ button:focus {
 }
 
 #double-img {
+	float: right;
 	width: 45%;
-	position: relative;
-	display: block;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-#right-subtitle {
-	margin-left: 2vmin;
-}
-
-#left-subtitle {
-	margin-right: 2vmin;
+#double-img .images {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 2vmin;
 }
