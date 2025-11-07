@@ -97,14 +97,14 @@ $(document).ready(function() {
           within NAVSEA Philadelphia (including LPD 28 ECS and Coast Guard Machinery Control Systems) rely on this 
           framework as a basis for developing their own systems, which they then deliver out to other fleets.<br>
           Similar to the LPD 17 ECS legacy framework, the PIMCS framework contains some (but not all) ship components 
-          such as propulsion and ballast. Java Spring is primarily used for the frontend elements of the PIMCS application, 
+          such as propulsion and ballast. Java Swing is primarily used for the frontend elements of the PIMCS application, 
           whereas Apache Velocity templates and other Java libraries support the backend. Since our main objective is to 
           provide an application framework, not all functionalities of a finished software product are included. Nevertheless, 
           some select technical components are included for the sake of testing such as alarm severity systems and PLC 
           data transmissions.
           Some skills I have utilized with PIMCS include:
           <ul style="text-indent: 10px;">
-              <li>Java (Spring and AssertJ frameworks)</li>
+              <li>Java (Swing and AssertJ frameworks)</li>
               <li>Agile development methodologies</li>
               <li>Network packet scanning in Wireshark</li>
               <li>Template programming in Apache Velocity</li>
