@@ -29,29 +29,22 @@ $(document).ready(function() {
     }
   });
 
-  $("#home-btn").click(async function() {
-    await sleep();
-    $("#pages > div").hide();
-    $("#current").show();
+  $("#dropdown-content > button").click(async function() {
+    $("#pages > div").fadeOut(WAIT_TIME);
   });
 
-  $("#empl-btn").click(async function() {
+  const buttonMap = {
+    "home-btn": "#home",
+    "empl-btn": "#employment",
+    "edu-btn": "#education",
+    "proj-btn": "#projects"
+  };
+
+  $("#home-btn, #empl-btn, #edu-btn, #proj-btn").click(async function() {
     await sleep();
-    $("#pages > div").hide();
-    $("#employment").show();
+    $(buttonMap[this.id]).fadeIn(WAIT_TIME);
   });
 
-  $("#edu-btn").click(async function() {
-    await sleep();
-    $("#pages > div").hide();
-    $("#education").show();
-  });
-
-  $("#proj-btn").click(async function() {
-    await sleep();
-    $("#pages > div").hide();
-    $("#projects").show();
-  });
 });
 
 console.log("You've found hidden easter egg #1!")
