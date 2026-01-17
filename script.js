@@ -1,10 +1,6 @@
 const WAIT_TIME = 200;
 
 $(document).ready(function() {
-  async function sleep() {
-    await new Promise(resolve => setTimeout(resolve, WAIT_TIME));
-  }
-
   $("#dropdown-content button").click(async function() {
     $("#dropdown-content button").css("text-shadow", "1px 1px 2px black");
     $(this).css("text-shadow",
@@ -41,7 +37,8 @@ $(document).ready(function() {
   };
 
   $("#home-btn, #empl-btn, #edu-btn, #proj-btn").click(async function() {
-    await sleep();
+    // Allows smooth fade-in and fadeout without blocking the main thread (thanks JavaScript)
+    await new Promise(resolve => setTimeout(resolve, WAIT_TIME));
     $(buttonMap[this.id]).fadeIn(WAIT_TIME);
   });
 
