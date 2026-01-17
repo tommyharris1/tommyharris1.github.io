@@ -332,3 +332,11 @@ button:focus {
 	justify-content: center;
 	gap: 2vmin;
 }
+
+#cspan {
+	margin-right: 3vmin;
+	margin-top: 1.5vmin;
+	float: left;
+	width: 44vmin;
+	height: 25vmin;
+}
