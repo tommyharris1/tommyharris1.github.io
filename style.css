@@ -222,9 +222,9 @@ button:focus {
 }
 
 #navsea {
-	margin-top: 4vmin;
-	width: 38vmin;
-	height: 17.5vmin;
+	margin-top: 5vmin;
+	width: 35vmin;
+	height: 15vmin;
 }
 
 #lpd26 {
@@ -272,6 +272,7 @@ button:focus {
 #ue-pm {
 	width: 40vmin;
 	height: 22vmin;
+	margin-right: 3.5vmin;
 }
 
 #wendys {
