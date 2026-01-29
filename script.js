@@ -33,10 +33,11 @@ $(document).ready(function() {
     "home-btn": "#home",
     "empl-btn": "#employment",
     "edu-btn": "#education",
-    "proj-btn": "#projects"
+    "proj-btn": "#projects",
+    "pers-btn": "#personal"
   };
 
-  $("#home-btn, #empl-btn, #edu-btn, #proj-btn").click(async function() {
+  $("#home-btn, #empl-btn, #edu-btn, #proj-btn, #pers-btn").click(async function() {
     // Allows smooth fade-in and fadeout without blocking the main thread (thanks JavaScript)
     await new Promise(resolve => setTimeout(resolve, WAIT_TIME));
     $(buttonMap[this.id]).fadeIn(WAIT_TIME);
