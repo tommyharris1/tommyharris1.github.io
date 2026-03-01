@@ -9,7 +9,7 @@ $(document).ready(function() {
   });
 
   $(".dropdown").click(function() {
-    if($("#dropbtn #one").css("transform") == "none") {
+    if($("#dropbtn #one").css("transform") === "none") {
       $("#dropbtn #one").css("transform", "translateY(3vmin) rotate(45deg)");
       $("#dropbtn #two").css("opacity", "0");
       $("#dropbtn #three").css("transform", "translateY(-3vmin) rotate(-45deg)");
