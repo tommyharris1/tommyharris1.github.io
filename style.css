@@ -341,3 +341,16 @@ button:focus {
 	width: 44vmin;
 	height: 25vmin;
 }
+
+#diploma {
+	width: 25vmin;
+	height: 35vmin;
+}
+
+#eagle {
+	width: 22vmin;
+	height: 28vmin;
+	float: left;
+	margin-right: 3vmin;
+	margin-top: 2vmin;
+}
