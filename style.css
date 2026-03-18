@@ -51,11 +51,20 @@
 	visibility: visible;
 }
 
-body {
+body, header {
 	background: #14214b;
+}
+
+body {
 	animation: fadeInAnimation ease 1.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+}
+
+header {
+	position: sticky;
+	top: 0;
+	z-index: 10;
 }
 
 #headshot {
@@ -165,12 +174,9 @@ button:focus {
 	margin-top: -10px;
 }
 
-#resume-update {
-	font-size: 1.6vmin;
-	color: white;
-	display: block;
-	margin: 1px 0;
-	transform: scale(1.05);
+.smaller-btn {
+	height: 9vmin;
+	width: 9vmin;
 }
 
 .content {
@@ -215,10 +221,12 @@ button:focus {
 }
 
 #udlogo {
-	width: 37vmin;
-	height: 39.5vmin;
+	width: 27vmin;
+	height: 30vmin;
 	float: left;
 	margin-right: 3vmin;
+	margin-bottom: 1vmin;
+	margin-top: 2vmin;
 }
 
 #navsea {
@@ -315,7 +323,7 @@ button:focus {
 .img-right-margins {
 	float: right;
 	margin-top: 0.75vmin;
-	margin-bottom: 1.5vmin;
+	margin-bottom: 1vmin;
 	margin-left: 2vmin;
 }
 
@@ -325,6 +333,7 @@ button:focus {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin-top: 1.65vmin;
 }
 
 #double-img .images {
