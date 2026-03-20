@@ -1,7 +1,7 @@
 const WAIT_TIME = 200;
 
 $(document).ready(function() {
-  $("#dropdown-content button").click(async function() {
+  $("#dropdown-content button").click(function() {
     $("#dropdown-content button").css("text-shadow", "1px 1px 2px black");
     $(this).css("text-shadow",
       "2.5px 2.5px 1px black");
@@ -25,8 +25,12 @@ $(document).ready(function() {
     }
   });
 
-  $("#dropdown-content > button").click(async function() {
+  $("#dropdown-content > button").click(function() {
     $("#pages > div").fadeOut(WAIT_TIME);
+  });
+
+  $("#resume-btn").click(function() {
+    window.open('./Resume.pdf', '_blank');
   });
 
   const buttonMap = {

@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 
-<head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Montserrat'>
-    <script
-        type="text/javascript"
-        src="https://code.jquery.com/jquery-3.7.1.js"
-        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-        crossorigin="anonymous">
-    </script>
-    <script type="text/javascript" src="./script.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+<html lang="en">
 
-<html>
-    <body>
+    <head>
+        <!--TODO: Add fallbacks for these hrefs: Bootstrap and Montserrat font-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Montserrat&display=swap'>
+        <script
+            type="text/javascript"
+            src="https://code.jquery.com/jquery-3.7.1.js"
+            integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+            crossorigin="anonymous"
+            defer>
+        </script>
+        <script type="text/javascript" src="./script.js" defer></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body spellcheck="false">
+
         <header>
-            <br>
             <div class="dropdown">
                 <button id="dropbtn">
                     <div class="drop" id="one"></div>
@@ -25,33 +28,34 @@
                     <div class="drop" id="three"></div>
                 </button>
                 <div id="dropdown-content">
-                    <button href="#" id="home-btn" style="text-shadow: 2.5px 2.5px 1px black">HOME</button>
-                    <button href="#" id="empl-btn">EMPLOYMENT</button>
-                    <button href="#" id="edu-btn">EDUCATION</button>
-                    <button href="#" id="story-btn">MY STORY</button>
-                    <button href="#" id="proj-btn">PROJECTS</button>
-                    <button href="#" id="pers-btn">PERSONAL</button>
+                    <button id="home-btn">HOME</button>
+                    <button id="empl-btn">EMPLOYMENT</button>
+                    <button id="edu-btn">EDUCATION</button>
+                    <button id="story-btn">MY STORY</button>
+                    <button id="proj-btn">PROJECTS</button>
+                    <button id="pers-btn">PERSONAL</button>
                 </div>
             </div>
             <span class="button-container-right">
                 <a href="mailto:thomas.p.harris672@gmail.com">
                     <button title="E-mail">
-                        <embed src="images/email.png" class="small-btn">
+                        <img src="images/email.png" class="small-btn">
                     </button>
                 </a>
                 <a href="https://www.linkedin.com/in/tommy-harris-100/" target="_blank">
                     <button title="LinkedIn">
-                        <embed src="images/linkedin.png" class="smaller-btn" style="margin-top: -1px">
+                        <img src="images/linkedin.png" class="smaller-btn">
                     </button>
                 </a>
-                <button onclick="window.open('./Resume.pdf')" title="Resume">
-                    <embed src="images/resume.png" class="smaller-btn" style="margin-top: -10px">
+                <button id="resume-btn" title="Resume">
+                    <img src="images/resume.png" class="smaller-btn">
                 </button>
             </span>
         </header>
-        <br><br><br>
 
-        <div id="pages" style="width: 85%; margin: auto;">
+        <br><br>
+
+        <div id="pages">
 
             <div id="home">
                 <h1>Thomas Peter Harris</h1>
@@ -64,7 +68,7 @@
                     My mission is to support and provide cutting edge software and cybersecurity solutions to customers and businesses who thrive off of the ever changing technological landscape.<br>
                     This website serves as my portfolio. Here, you will learn more about who I am and what I do, both professionally and personally.<br><br>
                     My areas of interest include (but are not limited to):<br>
-                    <ul style="text-indent: 10px;">
+                    <ul>
                         <li>Full Stack Software Development in Java, Python, and C/C++</li>
                         <li>Web Development in HTML, CSS, Javascript, React, TypeScript, Vue.js, and Node.js</li>
                         <li>Game Development in C# and Unity</li>
@@ -79,7 +83,7 @@
                 </div>
             </div>
 
-            <div id="employment" style="display: none;">
+            <div id="employment" class="no-display">
                 <h1>Employment</h1><br>
 
                 <h2>Life Cycle Engineering - Jr. Software Engineer</h2>
@@ -113,7 +117,7 @@
                     electrical generators, and auxiliary devices.<br>
                     Supporting this team taught me a lot about how ship systems function and how ECS manages those 
                     systems. Some skills I learned and utilized include:
-                    <ul style="text-indent: 10px;">
+                    <ul>
                         <li>ECS Page Building</li>
                         <li>Programming in Ada, Bash, and Batch</li>
                         <li>Modbus bitwise communications for signal processing</li>
@@ -124,14 +128,14 @@
                     </ul>
                     Providing software support to LPD 17 ECS under LCE has opened the door to new experiences
                     and opportunities.<br>
-                    In September 2024, I got to travel to San Diego, CA and go onboard USS John P. Murtha, where I performed 
+                    In September 2024, I traveled to San Diego, CA and went onboard USS John P. Murtha, where I performed 
                     updated installations of ECS on Windows 10 consoles. This experience
                     gave me the chance to learn first-hand how the work I do positively impacts U.S. Navy operations and 
                     how sailors rely on engineers like myself to build and maintain system functionality.<br>
                 </div>
                 <img class="box-shadow img-left-small-margins" id="navsea" src="images/navsea.jpg"><br>
                 <div class="content">
-                    In November 2024, I started providing software support to a different customer under NAVSEA Philadelphia
+                    In November 2024, I began providing software support to a different customer under NAVSEA Philadelphia
                     known as Platform Independent Machinery Control Systems (PIMCS). Unlike LPD 17 ECS, PIMCS provides continuous
                     development and deployment for a more modern and newer framework for Navy ship controls. Other integrators 
                     within NAVSEA Philadelphia (including LPD 28 ECS and Coast Guard Machinery Control Systems) rely on this 
@@ -143,7 +147,7 @@
                     some select technical components are included for the sake of testing such as alarm severity systems and PLC 
                     data transmissions.
                     Some skills I have utilized with PIMCS include:
-                    <ul style="text-indent: 10px;">
+                    <ul>
                         <li>Java (Swing and AssertJ frameworks)</li>
                         <li>Database configurations in MySQL and SQLite</li>
                         <li>Agile development methodologies</li>
@@ -251,7 +255,7 @@
                     progresses through each dataframe correctly. Although it was mostly backend development, I also added some Quality-of-Life frontend 
                     features such as collapsible dataframes and calendar-style date selections.<br>
                     Languages and software utilized for both capstone projects include:
-                    <ul style="text-indent: 10px;">
+                    <ul>
                         <li>Python (FastAPI, Pandas, and Behave libraries)</li>
                         <li>Javascript and HTML</li>
                         <li>JQuery and CryptoJS for JSON object encryption</li>
@@ -265,7 +269,7 @@
                     </ul>
                 </div>
 
-                <h2>University of Delaware Dept. of Computer and Info. Sciences - Teaching Assistant (Part-Time)</h2>
+                <h2>The University of Delaware Dept. of Computer and Info. Sciences - Teaching Assistant (Part-Time)</h2>
                 <h3>Newark, DE</h3>
                 <h3>August 2022 - December 2022</h3>
                 <img class="png-shadow img-left-margins" id="cisud" src="images/cisudlogo.jpg">
@@ -321,7 +325,7 @@
                 </div><br>
             </div>
 
-            <div id="education" style="display: none;">
+            <div id="education" class="no-display">
                 <h1>Education</h1><br>
 
                 <h2>The University of Delaware</h2>
@@ -337,10 +341,10 @@
                     submitted an appeal and successfully got into a B.A. Computer Science program.
                     I made my official first move to UD in August 2019 where I stayed in the Harrington dorms.<br><br>
                 </div>
-                <div id="double-img">
+                <div id="first-day-images">
                     <div class="images">
-                        <img class="box-shadow" id="fall19" src="images/fall19_1.JPG">
-                        <img class="box-shadow" id="fall19" src="images/fall19_2.JPG">
+                        <img class="box-shadow fall19" src="images/fall19_1.JPG">
+                        <img class="box-shadow fall19" src="images/fall19_2.JPG">
                     </div>
                     <div class="subtitle" style="margin-top: 2vmin">My first day on campus - Fall 2019</div>
                 </div>
@@ -365,10 +369,10 @@
                     imagine the worst as feelings of helplessness washed over me. I resumed my classwork one week after returning home and did my 
                     best to finish the semester strong despite all the hardships going on in the world at the time. On the plus side, I was relieved 
                     of my strenuous course load  (including music ensembles) and I managed to pass my classes with some assistance from 
-                    friends, acquantainces, and professors.
+                    friends, acquaintances, and professors.
                 </div><br>
                 <div class="image-display image-right">
-                    <img class="box-shadow img-right-margins" id="onboarding" src="images/spring21.jpg">
+                    <img class="box-shadow img-right-margins" id="spring21" src="images/spring21.jpg">
                     <div class="subtitle" style="margin-left: 3vmin">My roommate Nick and myself</div>
                 </div>
                 <div class="content">
@@ -413,7 +417,7 @@
                 </div>
             </div>
 
-            <div id="story" style="display: none;">
+            <div id="story" class="no-display">
                 <h1>My Story</h1><br>
 
                 <h2>Computers & Technology</h2>
@@ -429,7 +433,7 @@
 
             </div>
 
-            <div id="projects" style="display: none;">
+            <div id="projects" class="no-display">
                 <h1>Projects</h1><br>
 
                 <h2>Project CSPAN</h2>
@@ -443,7 +447,7 @@
                     taking on the role of a young dog and fighting off enemies such as squirrels, a mailman, a vacuum cleaner, and a school bus.
                     Silly, I know. But it does take us into the mind of a puppy and what one might imagine doing in their fantasies.<br>
                     Currently, the "artwork" is from ChatGPT, as I am by no means an artist myself. I do plan on hiring an actual artist at some 
-                    point, and I also have plenty of ideas in the works including a collectilbles system and level designs. 
+                    point, and I also have plenty of ideas in the works including a collectibles system and level designs. 
                     This is actually my first attempt at game development and I am pretty proud of what I have conceived so far!
                 </div><br>
 
@@ -473,7 +477,7 @@
                 </div>
             </div>
 
-            <div id="personal" style="display: none;">
+            <div id="personal" class="no-display">
                 <h1>Personal</h1><br>
 
                 <div class="content">
@@ -482,6 +486,5 @@
             </div>
 
         </div>
-
     </body>
 </html>
