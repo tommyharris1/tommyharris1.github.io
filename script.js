@@ -4,7 +4,7 @@ $(document).ready(function() {
   $("#dropdown-content button").click(function() {
     $("#dropdown-content button").css("text-shadow", "1px 1px 2px black");
     $(this).css("text-shadow",
-      "2.5px 2.5px 1px black");
+      "7.5px 7.5px 3px black");
     $("#dropdown-content").css("animation", "growUp 200ms ease-in-out forwards");
   });
 
