@@ -84,7 +84,7 @@ ul {
 }
 
 h1, h2, h3 {
-	color: #00FFA3;
+	color: #38D9C5;
 	text-shadow: 4px 4px 8px black;
 	text-align: left;
 }
@@ -120,7 +120,7 @@ button:focus {
 }
 
 .dropdown button {
-	color: #00FFA3;
+	color: #38D9C5;
 	font-size: 20px;
 	text-shadow: 1px 1px 2px black;
 	transition: transform 0.3s ease;
@@ -138,7 +138,7 @@ button:focus {
 	position: absolute;
 	min-width: 250px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	background-color: rgba(15, 27, 45, 0.97);
+	background-color: rgba(15, 27, 45, 0.92);
 	border-radius: 4px;
 	z-index: 1;
 	border: 2px solid #00FFA3;
@@ -220,7 +220,7 @@ button:focus {
 }
 
 #home-btn {
-	text-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+	text-shadow: 7.5px 7.5px 3px black
 }
 
 #fti {
