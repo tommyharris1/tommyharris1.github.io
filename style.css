@@ -387,3 +387,36 @@ button:focus {
 	margin-right: 3vmin;
 	margin-top: 2vmin;
 }
+
+#collage {
+	column-count: 3;
+	column-gap: 20px;
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.collage-item {
+	break-inside: avoid;
+	margin-bottom: 20px;
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+.collage-item img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+@media (max-width: 900px) {
+	#collage {
+		column-count: 2;
+	}
+}
+
+@media (max-width: 500px) {
+	#collage {
+		column-count: 1;
+	}
+}
