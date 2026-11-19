@@ -194,6 +194,7 @@ button:focus {
 	font-size: 2vmin;
 	color: white;
 	margin: 1vmin;
+	margin-left: 2vmin;
 }
 
 .image-left {
@@ -236,7 +237,7 @@ button:focus {
 
 #afms {
 	width: 41vmin;
-	height: 10vmin;
+	height: 9vmin;
 }
 
 #udlogo {
